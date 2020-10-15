@@ -1,0 +1,79 @@
+.login-container{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left:25%
+}
+
+.login-form-1{
+    padding: 9%;
+    background:#282726;
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 9px 26px 0 rgba(0, 0, 0, 0.19);
+}
+.login-form-1 h3{
+    text-align: center;
+    margin-bottom:12%;
+    color:#fff;
+}
+.login-form-2{
+    padding: 9%;
+    background: #f05837;
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 9px 26px 0 rgba(0, 0, 0, 0.19);
+}
+.login-form-2 h3{
+    text-align: center;
+    margin-bottom:12%;
+    color: #fff;
+}
+.btnSubmit{
+    font-weight: 600;
+    width: 70%;
+    color: #282726;
+    background-color: #fff;
+    border: none;
+    border-radius: 1.5rem;
+    padding:2%;
+    margin-left:60px;
+}
+
+
+.cont{
+    text-align: center;
+    font-size: 24px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.back{
+    background-image:url("img/back1.jpg");
+}
+
+body{
+    background-color: lightgrey;
+}
+
+.foo{
+    background-color: tomato;
+}
+
+
+
+
+/* pentru deplasare icon */
+
+body > img{
+    
+    width: 100px;
+    height: auto;
+    -webkit-animation: mover 10s  0s 1 forwards ; 
+    animation: mover 10s  0s  1 forwards ;
+}
+
+@-webkit-keyframes mover {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(500px); }
+}
+
+@keyframes mover {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(500px); }
+}
+/*------------------------ */

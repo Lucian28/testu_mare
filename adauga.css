@@ -1,0 +1,9 @@
+.panel-heading{
+    text-align: center;
+         width: 50%;
+}
+
+.panel-heading > input[type="text"] {
+    width: 100px;
+    height: 40px;
+}

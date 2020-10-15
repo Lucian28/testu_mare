@@ -1,0 +1,454 @@
+
+.panel-heading{
+  width: 100% ;
+  text-align: center;
+}
+
+.panel-body{
+  width:60%;
+
+  float:center;
+}
+
+.panel-body > form .form-group {
+  text-align: center;
+  margin-left: 70%;
+}
+
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 20px;
+    background-color: #f05e0a59;
+    padding: 25px;
+  }
+  
+  .grid-container > div {
+    background-color: rgba(255, 255, 255, 1.0);
+    border: 1px solid black;
+    text-align: center;
+    font-size: 30px;
+  }
+
+
+  .categorii {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 50px;
+    background-color: #001b4d;
+    padding: 25px;
+   
+
+  }
+
+  .categorii > div {
+    background-color: rgba(255, 255, 255, 1.0);
+    border: 1px solid black;
+    text-align: center;
+    font-size: 30px;
+    border-radius: 10%;
+    padding: 15px;
+    
+  }
+  .categorii > div > a> img {
+    height: 100px;
+    width: auto;
+    }
+  .categorii > div >img {
+  height: 100px;
+  width: auto;
+  }
+
+  
+  
+ /* pentru alimentele din cat nuci, carne etc  */
+  .categorii-cat > div {
+    background-color: rgba(255, 255, 255, 1.0);
+    border: 1px solid black;
+    text-align: center;
+    font-size: 30px;
+    border-radius: 10%;
+    padding: 35px;
+  }
+
+  .categorii-cat {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 50px;
+    background-color: #001b4d;
+    padding: 155px;
+
+  }
+  .categorii-cat > div > img {
+   
+  }
+
+ 
+/*   stil pentru alimentele din cat de cate 12            */
+
+.categorii-cat-12 > div {
+  background-color: rgba(255, 255, 255, 1.0);
+  border: 1px solid black;
+  text-align: center;
+  font-size: 30px;
+  border-radius: 10%;
+  margin-bottom: 5px;
+}
+
+.categorii-cat-12 {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 10px;
+  background-color: #001b4d;
+  padding: 15px;
+
+}
+.categorii-cat-12 > div > img {
+
+  height: 80px;
+  width: auto;
+}
+
+
+
+.categorii-cat-12 > div > form > button {
+  height: 50px;
+  width:auto;
+  margin-bottom: 7px;
+}
+
+
+.categorii-cat-12 > div > form >  input[type="text"] {
+  text-align: center;
+  width:70px;
+}
+/*         cat 8      */
+
+.categorii-cat-8 > div {
+  background-color: rgba(255, 255, 255, 1.0);
+  border: 1px solid black;
+  text-align: center;
+  font-size: 30px;
+  border-radius: 10%;
+  padding: 25px;
+}
+
+.categorii-cat-8 {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 20px;
+  background-color: #001b4d;
+  padding: 15px;
+
+}
+.categorii-cat-8 > div > img {
+height: 100px;
+width: auto;
+}
+
+
+
+.categorii-cat-8 > div > form > button {
+  height: 50px;
+  width:80px;
+  margin-bottom: 7px;
+}
+
+
+.categorii-cat-8 > div > form> input[type="text"] {
+  text-align: center;
+  width:70px;
+}
+/*   ----------------------------------------------       */
+
+
+
+
+  .categorii-calorii {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+
+    background-color: #001b4d;
+    
+    padding-top: 85px;
+    padding-bottom: 65px;
+    padding-left: 65px;
+    padding-right: 65px;
+  }
+
+  .categorii-calorii > div {
+    background-color: rgba(255, 255, 255, 1.0);
+    border: 1px solid black;
+    text-align: center;
+    font-size: 30px;
+    border-radius: 5%;
+    margin-left:230px;
+    
+  }
+  .categorii-calorii > div >h1 {
+ font-family: copperplate;
+  font-size: 45px;
+  }
+ 
+  .categorii-calorii > div > img{
+    height: 70%;
+    width: auto;
+
+  }
+
+
+
+  .bunvenit {
+    background-color:#009688;
+    height: 100vh;
+  }
+ .bunvenit .element-animation > p > a > img {
+    height: 100px;
+    width: auto;
+  }
+
+   .bunvenit .element-animation > p {
+    text-align: center;
+    font-size: 77px;
+    color:white;
+    padding-top: 20%;
+    height: 50px;
+    width: auto;
+   }
+  
+   
+  
+
+  * {box-sizing: border-box;}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+* {box-sizing: border-box;}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: rgb(0, 0, 0);
+ 
+}
+
+.topnav a {
+  float: left;
+
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 15px 50px 15px 50px;
+  text-decoration: none;
+  font-size: 22px;
+}
+
+.topnav a:hover {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+
+}
+
+.topnav a.active {
+  background-color: rgb(133, 5, 47);
+  color: white;
+}
+
+.topnav .search-container {
+  float: right;
+}
+
+.topnav input[type=text] {
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 17px;
+border: none;
+  border-radius:1%;
+}
+
+.topnav .search-container button {
+  float: right;
+  padding: 6px 10px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background: rgb(255, 255, 255);
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+
+.topnav .search-container button:hover {
+  background: rgb(255, 0, 0);
+}
+
+@media screen and (max-width: 600px) {
+  .topnav .search-container {
+    float: none;
+  }
+  .topnav a, .topnav input[type=text], .topnav .search-container button {
+    float: none;
+    display: block;
+    text-align: left;
+    width: 100%;
+    margin: 0;
+    padding: 14px;
+  }
+  .topnav input[type=text] {
+    border: 1px solid #ccc;  
+  }
+}
+
+
+image{
+  width:100px;
+  height:100px;
+}
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+table {
+  width:100%;
+}
+
+th, td {
+  padding: 15px;
+  text-align: center;
+}
+
+table#t01 tr:nth-child(even) {
+  background-color: rgb(255, 255, 255);
+}
+table#t01 tr:nth-child(odd) {
+ background-color: rgb(253, 249, 237);
+}
+table#t01 th {
+  background-color: black;
+  color: white;}
+
+  .cantitate{
+    min-width: 30%;
+    max-width: 40%;
+    text-align: center;
+  }
+
+
+
+
+  
+  .element-animation{
+    animation: animationFrames ease 2s;
+    animation-iteration-count: 2;
+    transform-origin: 50% 50%;
+    animation-fill-mode:forwards; /*when the spec is finished*/
+    -webkit-animation: animationFrames ease 1.5s;
+    -webkit-animation-iteration-count: 1;
+    -webkit-transform-origin: 50% 50%;
+    -webkit-animation-fill-mode:forwards; /*Chrome 16+, Safari 4+*/ 
+  }
+  
+  
+  @keyframes animationFrames{
+    0% {
+      opacity:0;
+      transform:  translate(-1500px,0px)  ;
+    }
+    60% {
+      opacity:1;
+      transform:  translate(30px,0px)  ;
+    }
+    80% {
+      transform:  translate(-10px,0px)  ;
+    }
+    100% {
+      opacity:1;
+      transform:  translate(0px,0px)  ;
+    }
+  }
+  
+  @-webkit-keyframes animationFrames {
+    0% {
+      opacity:0;
+      -webkit-transform:  translate(-1500px,0px)  ;
+    }
+    60% {
+      opacity:1;
+      -webkit-transform:  translate(30px,0px)  ;
+    }
+    80% {
+      -webkit-transform:  translate(-10px,0px)  ;
+    }
+    100% {
+      opacity:1;
+      -webkit-transform:  translate(0px,0px)  ;
+    }
+}
+    
+  
+
+.titlu{
+text-align:center;
+color: teal;
+}
+
+.continut{
+  text-align: center;
+}
+.continut > h2{
+color:green;
+
+}
+
+
+.button-up {
+  text-align: center;
+  background-color: #001b4d;
+  padding-bottom: 100px;
+  padding-top:10px;
+}
+
+.button-up > a > img {
+  height: 100px;
+  width: auto;
+}
+
+.button-up-2 > a > img {
+  height: 100px;
+  width: auto;
+}
+
+
+.button-up-2 {
+  text-align: center;
+  background-color: #001b4d;
+ 
+}
+
+
+
+.nrAlim{
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  padding: 8px;
+  color: #009688;
+}
+
+/* search barrrr */
+
+
+
+.table-footer>td{
+  background-color: lightgreen;
+  color:black bold;
+  
+ }
+

@@ -1,0 +1,36 @@
+.categorii-cat-8 > div {
+  background-color: rgba(255, 255, 255, 1.0);
+  border: 1px solid black;
+  text-align: center;
+  font-size: 30px;
+  border-radius: 10%;
+  padding: 25px;
+}
+
+.categorii-cat-8 {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 20px;
+  background-color: #001b4d;
+  padding: 110px;
+
+}
+.categorii-cat-8 > div > img {
+  border-radius: 50%;
+  height: 80px; 
+  width: auto;
+}
+
+
+
+.categorii-cat-8 > div > button {
+  height: 50px;
+  width:80px;
+  margin-bottom: 7px;
+}
+
+
+.categorii-cat-8 > div > input[type="text"] {
+  text-align: center;
+  width:70px;
+}
